@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html>
+<title>Ciovr</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+<style>
+body,html {
+  height:100%;
+  font-family:"Inconsolata",sans-serif;
+}
+
+.bgimg {
+  background-position:center;
+  background-size:cover;
+  background-image:url("https://raw.githubusercontent.com/5yzsau4/ciovr.github.io/main/100k%20(1).png");
+  min-height:75%;
+}
+
+.menu {
+  display:none;
+}
+</style>
+
+<body>
+
+  </nav>
+</div>
+
+<!-- Header -->
+
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+
+  <div class="w3-display-bottomleft
+  w3-center w3-padding-large w3-hide-small">
+  </div>
+
+</header>
+
+<!-- Page Content -->
+
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About -->
+
+<section class="w3-container" id="about">
+
+  <div class="w3-content" style="max-width:700px">
+
+<h5 class="w3-center w3-padding-64">
+  <span class="w3-tag w3-wide">ABOUT Ciovr</span>
+</h5>
+
+<p>
+Ciovr is an American Creator who knows ball. nuff said.
+</p>
+
+<div class="w3-panel w3-leftbar w3-light-grey">
+
+  <p>
+  <i>
+  In addition to a widespread knowledge of 'ball'-er topics, Ciovr creates Minecraft Animation, Challenge, and Variety Content.
+  </i>
+  </p>
+
+  <p>
+  ...why do u wanna know anyways?
+  </p>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/5yzsau4/ciovr.github.io/main/Screenshot%202026-11-16%20011305.png"
+alt="cool img"
+style="width:100%;margin-top:16px">
+
+<p>
+<b>To Support:</b> Follow me!
+</p>
+
+<p>
+<b>Youtube:</b> Ciovr
+<p>
+
+<p>
+<b>duh. <3
+</p>
+
+<img src="https://raw.githubusercontent.com/5yzsau4/ciovr.github.io/main/Thumbnail_1.png"
+alt="cool thumbnail"
+style="width:100%;margin-top:16px">
+
+
+  </div>
+
+</section>
+
+<!-- Menu -->
+
+<section class="w3-container" id="menu">
+
+  <div class="w3-content" style="max-width:700px">
+
+
+
+<!-- Menu Tabs -->
+<div class="w3-flex w3-card w3-padding">
+
+  <a href="javascript:void(0)"
+  onclick="openMenu(event,'Accomplishments')"
+  id="myLink"
+  class="tablink w3-center"
+  style="flex:1">
+  Accomplishments
+  </a>
+
+
+
+</div>
+
+<!-- Accomplishments -->
+<div id="Accomplishments"
+class="w3-container menu w3-padding-48 w3-card">
+
+  <h5>22,000 Followers</h5>
+  <p class="w3-text-grey">
+  16,000 On YouTube | 6,000 On Instagram
+  </p>
+
+  <br>
+
+  <h5>3 Good Ideas</h5>
+  <p class="w3-text-grey">
+  More than 2 decent+ ideas :D
+  </p>
+
+  <br>
+
+  <h5>Created over 150 Videos</h5>
+  <p class="w3-text-grey">
+  Caramel flavored
+  </p>
+
+  <br>
+
+  <h5>this website has no point</h5>
+  <p class="w3-text-grey">
+  no really
+  </p>
+
+  <br>
+
+  <h5>more to come!</h5>
+  <p class="w3-text-grey">
+  stay tuned :D
+  </p>
+
+</div>
+
+<!-- Drinks -->
+<div id="Drinks"
+class="w3-container menu w3-padding-48 w3-card">
+
+  <h5>Coffee</h5>
+  <p class="w3-text-grey">Regular coffee 2.50</p>
+
+  <br>
+
+  <h5>Chocolato</h5>
+  <p class="w3-text-grey">
+  Chocolate espresso with milk 4.50
+  </p>
+
+  <br>
+
+  <h5>Corretto</h5>
+  <p class="w3-text-grey">
+  Whiskey and coffee 5.00
+  </p>
+
+  <br>
+
+  <h5>Iced Tea</h5>
+  <p class="w3-text-grey">
+  Hot tea, except not hot 3.00
+  </p>
+
+  <br>
+
+  <h5>Soda</h5>
+  <p class="w3-text-grey">
+  Coke, Sprite, Fanta, etc. 2.50
+  </p>
+
+</div>
+
+<p>
+kay buhbyeee.
+</p>
+
+<img src="https://raw.githubusercontent.com/5yzsau4/ciovr.github.io/main/Screenshot%202026-11-19%20200615.png"
+alt="Map"
+style="width:100%">
+
+
+
+
+
+</form>
+
+  </div>
+
+</section>
+
+</div>
+
+<!-- Footer -->
+
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+
+<p>
+
+</a>
+</p>
+
+</footer>
+
+<script>
+function openMenu(evt,menuName) {
+  var i,x,tablinks;
+
+  x = document.getElementsByClassName("menu");
+
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+
+  tablinks = document.getElementsByClassName("tablink");
+
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className =
+      tablinks[i].className.replace(" w3-dark-grey","");
+  }
+
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.className += " w3-dark-grey";
+}
+
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
